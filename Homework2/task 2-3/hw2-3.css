@@ -1,0 +1,28 @@
+body{
+    background-color: darkolivegreen;
+}
+.month{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:30px;
+    flex-wrap: wrap;
+    margin: 50px 20px;
+}
+.box{
+    width: 280px;
+    padding: 15px;
+    height: 290px;
+    background-color: lightgray;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+p{
+    padding: 10px 20px;
+    font-size: 25px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
