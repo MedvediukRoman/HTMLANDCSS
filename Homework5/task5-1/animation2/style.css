@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.earth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+
+}
+img{
+margin-top:100px;
+    width: 300px;
+    height: 300px;
+    animation: earth 5s ease-out infinite;
+}
+.luna{
+
+    animation: luna 5s ease-out infinite;
+
+}
+@keyframes earth {
+    from{
+        transform: rotate(30deg);
+
+    }
+    20%{ transform: rotate(60deg);
+    }
+
+    30%{ transform: rotate(80deg);
+    }
+    40%{ transform: rotate(90deg);
+    }
+    50%{ transform: rotate(120deg);
+    }
+       60%{ transform: rotate(150deg);}
+
+    70%{
+        transform:rotate(180deg);
+
+    }
+    80%{ transform: rotate(210deg);}
+    90%{ transform: rotate(240deg);}
+    to{
+        transform: scale(1) rotate(0deg);;
+
+    }
+}
+@keyframes luna {
+    from {
+        transform: translate(1000px);
+
+
+        to {
+            transform: scale(1) rotate(0deg);
+
+        }
+    }
+}
+
+

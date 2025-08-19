@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.sky{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.raining{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cloud{
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    animation: sky 5s linear infinite alternate ;
+}
+.rain{
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    animation: rain 5s ease-in-out infinite alternate ;
+}
+.rain1{
+    width: 50px;
+    height: 50px;
+    margin-left: 200px ;
+    animation: rain 5s ease-in-out infinite alternate ;
+}
+.rain2{
+    width: 50px;
+    height: 50px;
+    margin-left: 0  ;
+    animation: rain 5s ease-in-out infinite alternate ;
+}
+@keyframes sky {
+    from{
+        transform: translate(50px)
+    }
+    40%{
+        /*transform:  rotate(-60deg);*/
+    }
+    50%{
+        transform: translate(-50px)
+    }
+    to{
+        transform: scale(1)
+
+    }
+}
+@keyframes rain {
+    from{
+        transform: translateY(200px);
+
+    }
+    40%{
+        /*transform:  rotate(-60deg);*/
+    }
+    50%{
+        transform:translateY(-120px);
+
+    }
+    to{
+        transform: scale(1) rotate(0deg);;
+
+    }
+}

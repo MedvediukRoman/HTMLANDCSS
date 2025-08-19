@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flytrap{
+    width: 400px;
+    height: 400px;
+    animation: flytrap2 3s ease-in-out infinite;
+}
+.bee{
+    width: 100px;
+    height: 100px;
+    animation: vyl1 3s ease-in-out infinite;
+
+}
+.bee3{
+    width: 100px;
+    height: 100px;
+    animation: vyl3 3s ease-in-out infinite;}
+.bee4{
+    width: 100px;
+    height: 100px;
+    animation: vyl4 3s ease-in-out infinite;}
+.bee1{
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    animation: vyl 5s ease-in-out infinite;
+
+}
+.bee2{
+    width: 100px;
+    height: 100px;
+    animation: vyl2 5s ease-in-out infinite;
+
+}
+.pasika{
+    margin-left: 400px;
+}
+@keyframes vyl {
+    from{
+        transform: translate(600px);
+
+    }
+    40%{
+        /*transform:  rotate(-60deg);*/
+    }
+    50%{
+        transform:translateY(-20px);
+
+    }
+    to{
+        transform: scale(1) rotate(0deg);;
+
+    }
+}
+@keyframes vyl1 {
+    from{
+        transform: translate(500px);
+
+    }
+    40%{
+        /*transform:  rotate(-60deg);*/
+    }
+    50%{
+        transform:translateY(-120px);
+
+    }
+    to{
+        transform: scale(1) rotate(0deg);;
+
+    }
+}
+@keyframes vyl2 {
+    from{
+        transform: translate(100px);
+
+    }
+    40%{
+        /*transform:  rotate(-60deg);*/
+    }
+    50%{
+        transform:translateY(-120px);
+
+    }
+    to{
+        transform: scale(1) rotate(0deg);;
+
+    }
+}
+@keyframes vyl3 {
+    from {
+        transform: translate(-700px);
+
+    }
+    40% {
+        /*transform:  rotate(-60deg);*/
+    }
+    50% {
+        transform: translateY(-120px);
+
+    }
+    to {
+        transform: scale(1) rotate(0deg);
+
+    }
+}
+@keyframes vyl4 {
+    from {
+        transform: translate(-600px);
+
+    }
+    40% {
+        /*transform:  rotate(-60deg);*/
+    }
+    50% {
+        transform: translate(-120px,100px);
+
+    }
+    to {
+        transform: scale(1) rotate(0deg);;
+
+    }
+}
+@keyframes flytrap2 {
+    from {
+        transform: skew(30deg)
+
+    }
+50%{
+    transform: skew(-30deg)
+}
+
+
+
+    to {
+        transform: scale(1) rotate(0deg);;
+
+    }
+}
