@@ -1,0 +1,8 @@
+@media screen and (max-width:480px) {
+    .container {
+        width: 100%;
+        gap: 40px;
+        margin: 32px auto;
+
+    }
+}

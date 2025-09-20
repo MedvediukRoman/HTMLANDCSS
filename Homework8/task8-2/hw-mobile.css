@@ -1,0 +1,11 @@
+@media screen and (max-width:480px) {
+    .container {
+        width: 100%;
+        gap: 32px;
+        margin: 32px auto;
+        flex-direction: column;
+    }
+    div p{
+        width: 343px;
+    }
+}
